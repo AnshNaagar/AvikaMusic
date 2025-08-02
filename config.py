@@ -64,7 +64,7 @@ GIT_TOKEN = os.getenv("GIT_TOKEN", None)
 # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 SUPPORT_CHANNEL = os.getenv("SUPPORT_CHANNEL", "t.me/paidmodffreee")
-SUPPORT_GROUP = os.getenv("SUPPORT_GROUP", "t.me/paidmodffreee")
+SUPPORT_GROUP = os.getenv("SUPPORT_GROUP", "https://t.me/+ZktLcJtwsvI3ODY9")
 INSTAGRAM = os.getenv("INSTAGRAM", "t.me/paidmodffreee")
 YOUTUBE = os.getenv("YOUTUBE", "t.me/paidmodffreee")
 GITHUB = os.getenv("GITHUB", "https://github.com/privethaibbu/ShrutiMusic")
