@@ -39,8 +39,8 @@ API_ID = int(os.getenv("API_ID"))
 API_HASH = os.getenv("API_HASH")
 BOT_TOKEN = os.getenv("BOT_TOKEN")
 OWNER_ID = int(os.getenv("OWNER_ID", None))
-OWNER_USERNAME = os.getenv("OWNER_USERNAME", "Iam_ur_honey")
-BOT_USERNAME = os.getenv("BOT_USERNAME", "Doraamusic_bot")
+OWNER_USERNAME = os.getenv("OWNER_USERNAME", "itzdhruv")
+BOT_USERNAME = os.getenv("BOT_USERNAME", "Itzdhruvmusic_bot")
 
 # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 # 🛠️ Database & Deployment Configs
@@ -63,13 +63,13 @@ GIT_TOKEN = os.getenv("GIT_TOKEN", None)
 # 🔗 Support Links
 # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-SUPPORT_CHANNEL = os.getenv("SUPPORT_CHANNEL", "https://t.me/CrushCentral")
-SUPPORT_GROUP = os.getenv("SUPPORT_GROUP", "https://t.me/trustables_here")
-INSTAGRAM = os.getenv("INSTAGRAM", "https://t.me/trustables_here")
-YOUTUBE = os.getenv("YOUTUBE", "https://t.me/trustables_here")
-GITHUB = os.getenv("GITHUB", "https://github.com/privethaibbu/ShrutiMusic")
-DONATE = os.getenv("DONATE", "https://t.me/trustables_here")
-PRIVACY_LINK = os.getenv("PRIVACY_LINK", "https://t.me/trustables_here")
+SUPPORT_CHANNEL = os.getenv("SUPPORT_CHANNEL", "https://t.me/+w74bQBWuy-NmY2U1")
+SUPPORT_GROUP = os.getenv("SUPPORT_GROUP", "https://t.me/+w74bQBWuy-NmY2U1")
+INSTAGRAM = os.getenv("INSTAGRAM", "https://t.me/+w74bQBWuy-NmY2U1")
+YOUTUBE = os.getenv("YOUTUBE", "https://t.me/+w74bQBWuy-NmY2U1")
+GITHUB = os.getenv("GITHUB", "https://github.com/betaahai/ShrutiMusic")
+DONATE = os.getenv("DONATE", "https://t.me/+w74bQBWuy-NmY2U1")
+PRIVACY_LINK = os.getenv("PRIVACY_LINK", "https://t.me/+w74bQBWuy-NmY2U1")
 
 # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 # ⏱️ Duration & Playlist Settings
