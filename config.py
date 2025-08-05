@@ -35,27 +35,27 @@ load_dotenv()
 # 📲 Telegram & API Credentials
 # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-API_ID = int(os.getenv("API_ID"))
-API_HASH = os.getenv("API_HASH")
-BOT_TOKEN = os.getenv("BOT_TOKEN")
-OWNER_ID = int(os.getenv("OWNER_ID", None))
-OWNER_USERNAME = os.getenv("OWNER_USERNAME", "itzdhruv")
-BOT_USERNAME = os.getenv("BOT_USERNAME", "Itzdhruvmusic_bot")
+API_ID = int(os.getenv("API_ID","29448785"))
+API_HASH = os.getenv("API_HASH","599574f6aff0a09ebb76305b58e7e9c2")
+BOT_TOKEN = os.getenv("BOT_TOKEN")"8316595018:AAFYhuxUzN-ouAcwT2WARPMl0KNlflL2HXE"
+OWNER_ID = int(os.getenv("OWNER_ID", "7946797877"))
+OWNER_USERNAME = os.getenv("OWNER_USERNAME", "ansh_xd")
+BOT_USERNAME = os.getenv("BOT_USERNAME", "AvikaMusic_Bot")
 
 # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 # 🛠️ Database & Deployment Configs
 # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-MONGO_DB_URI = os.getenv("MONGO_DB_URI", None)
+MONGO_DB_URI = os.getenv("MONGO_DB_URI","mongodb+srv://Ansh1:TGwow@ansh1.35aemhh.mongodb.net/?retryWrites=true&w=majority&appName=Ansh1")
 LOG_GROUP_ID = int(os.getenv("LOG_GROUP_ID", None))
-HEROKU_APP_NAME = os.getenv("HEROKU_APP_NAME")
-HEROKU_API_KEY = os.getenv("HEROKU_API_KEY")
+HEROKU_APP_NAME = os.getenv("HEROKU_APP_NAME", None)
+HEROKU_API_KEY = os.getenv("HEROKU_API_KEY", None)
 
 # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 # 🔄 Git & Update Settings
 # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-UPSTREAM_REPO = os.getenv("UPSTREAM_REPO", "https://github.com/betaahai/ShrutiMusic")
+UPSTREAM_REPO = os.getenv("UPSTREAM_REPO", "https://github.com/AnshNaagar/AvikaMusic")
 UPSTREAM_BRANCH = os.getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = os.getenv("GIT_TOKEN", None)
 
