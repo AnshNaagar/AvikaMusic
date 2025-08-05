@@ -35,10 +35,10 @@ load_dotenv()
 # 📲 Telegram & API Credentials
 # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-API_ID = int(os.getenv("API_ID","29448785"))
+API_ID = int(os.getenv("API_ID", 29448785))
 API_HASH = os.getenv("API_HASH","599574f6aff0a09ebb76305b58e7e9c2")
 BOT_TOKEN = os.getenv("BOT_TOKEN")"8316595018:AAFYhuxUzN-ouAcwT2WARPMl0KNlflL2HXE"
-OWNER_ID = int(os.getenv("OWNER_ID", "7946797877"))
+OWNER_ID = int(os.getenv("OWNER_ID", 7946797877))
 OWNER_USERNAME = os.getenv("OWNER_USERNAME", "ansh_xd")
 BOT_USERNAME = os.getenv("BOT_USERNAME", "AvikaMusic_Bot")
 
